@@ -83,8 +83,8 @@ public class PrestamoEducativo extends Prestamo{
                 tiempoMeses,
                 ciudad,
                 nivelEstudio,
-                institucionEducativa.getNombre(),
-                institucionEducativa.getSiglas(),
+                institucionEducativa.obtenerNombre(),
+                institucionEducativa.obtenerSiglas(),
                 valorCarrera,
                 valorMensual);
         return cadena;
